@@ -1,4 +1,8 @@
 #include<stdio.h>
+//Cálculo de área y perímetro. 
+//Escribe un programa que pregunte al usuario los dos lados de un rectángulo y 
+//presente por pantalla el cálculo del perímetro (suma de los lados) y el área (base por altura). 
+
 void main(){
 	
 	int lado1,lado2;
