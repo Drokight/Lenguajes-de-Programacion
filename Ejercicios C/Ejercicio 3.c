@@ -1,4 +1,7 @@
 #include<stdio.h>
+//Cambio de dólares a pesos. 
+//Escribe un programa que pida al usuario un número de dólares y calcule el cambio en euros. 
+
 void main(){
 	int dolares;
 	int convercion=823;
