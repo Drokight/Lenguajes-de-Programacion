@@ -4,6 +4,8 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+//Este ejercicio se realiz√≥ en conjunto con "Camilo D√≠az" 
+
 void gotoxy(int x,int y){
 	HANDLE consola;
 	consola = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -42,9 +44,9 @@ void main() {
 	
 	for(j=0;j<5;j++){
 		for(i=0;i<5;i++){
-			// Ojo, ac· se crea un espacio entre cada n˙mero en el eje X, por lo que habrÌa que moverse 2 espacios
-			// para ponerse encima de cada n˙mero con el asterisco. Para no tener que apretar 2 veces la tecla A o D,
-			// habrÌa que borrar los espacios del eje X, o bien, que al moverse por el eje X se mueva 2 espacios.
+			// Ojo, ac√° se crea un espacio entre cada n√∫mero en el eje X, por lo que habr√≠a que moverse 2 espacios
+			// para ponerse encima de cada n√∫mero con el asterisco. Para no tener que apretar 2 veces la tecla A o D,
+			// habr√≠a que borrar los espacios del eje X, o bien, que al moverse por el eje X se mueva 2 espacios.
 			printf("%d ", laberinto[i][j]);
 		}
 		printf("\n");
@@ -168,9 +170,9 @@ void main() {
 	int y = 5;
 	
 	while (opcion!= 'z') {
-		Sleep(50);     // Esto es un delay de milisegundos. Si tiene poco delay, se mover· 2 espacios antes de soltar la flecha,
+		Sleep(50);     // Esto es un delay de milisegundos. Si tiene poco delay, se mover√° 2 espacios antes de soltar la flecha,
 		gotoxy(x, y);  // pero si tiene harto delay, alcanzas a soltar la flecha antes de que se mueva los 2 espacios, pero todas
-		printf("*");   // las dem·s acciones se volver·n m·s lentas.
+		printf("*");   // las dem√°s acciones se volver√°n m√°s lentas.
 		opcion = getch();
 		
 		// ARRIBA
