@@ -7,7 +7,7 @@
 #include <string>
 
 using namespace std;
-//NOTA: string[] guarda solo una palabra por alguna razón, por lo que en vez de usar espacio en el programa favor de utilizar "_"
+//NOTA: string[] guarda solo una palabra por alguna razÃ³n, por lo que en vez de usar espacio en el programa favor de utilizar "_"
 int main(void){
 	int opcion, contador2, contador4, contador6;
 	int user = 0;
@@ -17,7 +17,7 @@ int main(void){
 	int contador5 = 0;
 	//usuario[][0] es para guardar el correo, usuario[][1] para guardar el nombre y usuario[][2] para guardar el apellido.
 	string usuario[10][3];
-	//fecha[][0] es para guardar el dia, fecha[][1] para guardar el mes y fecha[][2] para guardar el año de nacimiento.
+	//fecha[][0] es para guardar el dia, fecha[][1] para guardar el mes y fecha[][2] para guardar el aÃ±o de nacimiento.
 	int fecha[10][3];
 	//mensajes[][0] es para guardar el nombre del destinatario y mensajes [][1] es para guardar el mensaje.
 	string mensajes[10][2];
@@ -28,7 +28,7 @@ int main(void){
 	
 	cout << "Bienvenido, seleccione una de las siguientes opciones:" << endl;
 	while(bandera1==true){
-		//Como el trabajo se debia realizar sin el uso de Arraylist se dejó un Array de tamaño para 10 usuarios.
+		//Como el trabajo se debia realizar sin el uso de Arraylist se dejÃ³ un Array de tamaÃ±o para 10 usuarios.
 		cout << endl << "1. Crear usuarios" << endl;
 		cout << "2. Ingresar con usuario" << endl;
 		cout << "3. Salir" << endl;
@@ -46,7 +46,7 @@ int main(void){
 				cin >> fecha[contador1][0];
 				cout << "Mes: ";
 				cin >> fecha[contador1][1];
-				cout << "Año: ";
+				cout << "AÃ±o: ";
 				cin >> fecha[contador1][2];
 				contador1++;
 				break;
