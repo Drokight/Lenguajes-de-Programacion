@@ -7,7 +7,7 @@
 #include <string>
 
 using namespace std;
-//NOTA: string[] guarda solo una palabra por alguna razón, por lo que en vez de usar espacio en el programa favor de utilizar "_"
+//NOTA: string[] guarda solo una palabra, por lo que en vez de usar espacio en el programa favor de utilizar "_"
 int main(void){
 	int opcion, contador2, contador4, contador6;
 	int user = 0;
