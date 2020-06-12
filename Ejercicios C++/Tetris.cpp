@@ -7,7 +7,7 @@
 #include <ctime>
 
 using namespace std;
-
+//Este trabajo se realizÃ³ en conjunto con Camilo Diaz
 class Figuras {
 	public:
 		int L[9];
@@ -19,14 +19,14 @@ class Figuras {
 		char opcion;
 };
 
-/* Constructor vacío */
+/* Constructor vacÃ­o */
 Figuras::Figuras() {
 	
 }
 
 int Figuras::llenarL() {
 	/* Este era para corroborar que al imprimirse
-	salieran todos los números en orden.
+	salieran todos los nÃºmeros en orden.
 	L[0] = 1; L[1] = 2; L[2] = 3;
 	L[3] = 4; L[4] = 5; L[5] = 6;
 	L[6] = 7; L[7] = 8; L[8] = 9;
@@ -81,7 +81,7 @@ int Figuras::mostrarL() {
 			cout << L[i] << " ";
 		}
 		
-		/*Con esto se hacen los saltos de línea cada 3 números
+		/*Con esto se hacen los saltos de lÃ­nea cada 3 nÃºmeros
 		sin contar el noveno */
 		if ((i+1)%3 == 0 && i != 8) {
 			cout << endl;
